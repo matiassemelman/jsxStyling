@@ -1,0 +1,23 @@
+:root {
+  --bg : hsl(216, 12%, 8%)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html {
+  height: 100vh;
+  background-color: var(--bg);
+
+}
+body {
+  margin: 0;
+  font-family: 'Hanalei Fill', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
